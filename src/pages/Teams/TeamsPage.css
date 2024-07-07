@@ -1,0 +1,113 @@
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Styling for the heading */
+.for-heading-in-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; /* Adjusted font size */
+  color: #9c0b0b; /* Bright red */
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* Container for the blocks */
+.blockContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Styling for the image block */
+.block-img {
+  position: relative;
+  width: 15rem; /* Adjusted image size */
+  height: 15rem; /* Aspect ratio */
+  border: 3px solid transparent;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Added shadow */
+  background-color: #000; /* Black background */
+}
+
+@keyframes rotate_border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Container for images */
+.for-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* Image inside the block */
+.block-img > img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* Hover effect for the image block */
+.block-img:hover, .block-img:focus {
+  border: 1px solid #460000; /* Red border on hover */
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+/* Container for the text blocks */
+.blockInfo {
+  background: #470101; /* Black to red gradient */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  transition: all 0.4s ease; /* Smooth transition */
+}
+
+
+
+/* Text inside the blocks */
+.blockInfo > p {
+  color: #fff; /* White text */
+  margin: 10px;
+  font-size: 16px; /* Adjusted font size */
+  transition: color 0.4s ease; /* Smooth transition for color */
+}
+
+.blockInfo > h3 {
+  color: #e0d2d2; /* Red heading text */
+  font-size: 20px; /* Adjusted font size */
+  transition: color 0.4s ease; /* Smooth transition for color */
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: inherit; /* Ensure the icon inherits the color */
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* Change this to the color you want on hover */
+}

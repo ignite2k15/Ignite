@@ -1,0 +1,114 @@
+/* Navbar Styles */
+.main-nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.menu-link {
+  display: flex;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.for-list-items {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.for-list-items:hover {
+  color: #ccc;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-desktop {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-desktop li {
+  margin-right: 1rem;
+}
+
+.social-media-desktop a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media-desktop a:hover {
+  color: #ccc;
+}
+
+.hamburger-menu {
+  display: none;
+  z-index: 1000;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hamburger-icon svg {
+  color: white; /* Set the icon color to white */
+  font-size: 1.2em; /* Adjust the size if needed */
+}
+
+/* Optional: Adjust the size of the close icon as well */
+.hamburger-menu .fa-times {
+  color: white; /* Set the close icon color to white */
+}
+
+
+@media (max-width: 768px) {
+  .menu-link {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    padding: 1rem 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .mobile-menu-link {
+    top: 60px;
+    left: -100%;
+  }
+
+  .for-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .for-list-items {
+    margin-right: 0;
+  }
+
+  .social-media-desktop {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}

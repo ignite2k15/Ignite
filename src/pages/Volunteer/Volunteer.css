@@ -1,0 +1,78 @@
+  .form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .name-fields input {
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  .name-fields input:last-child {
+    margin-right: 0;
+  }
+  
+  .birthdate-fields select, .phone-fields input {
+    width: 32%;
+    margin-right: 2%;
+  }
+  
+  .birthdate-fields select:last-child, .phone-fields input:last-child {
+    margin-right: 0;
+  }
+  
+  .address-fields input, .address-fields select {
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  .address-fields input:last-child, .address-fields select:last-child {
+    margin-right: 0;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  

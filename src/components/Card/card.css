@@ -1,0 +1,301 @@
+.card {
+  width: 400px;
+  padding: 20px;
+  color: #708985;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+:is(.card,.card-info){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card img{
+  width: 200px;
+  height: 100px;
+}
+
+.card-info-h3{
+  font-size: 0.8rem;
+
+}
+.card-info-ul{
+  font-size: 0.6rem;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 360px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.news-logo{
+  height: 100%;
+  width:100px;
+  border-radius: 20px;
+}
+
+.card2:hover{
+  box-shadow: rgba(165,13,13) 0px 50px 60px -50px, rgba(0, 0, 0, 0.3) 0px 30px 0px -30px, rgba(165,13,13) 0px -2px  0px inset;
+}
+
+
+
+
+.card3 {
+  width: 80%;
+  height: 580px;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: #edd1d1;
+  display: flex;
+}
+.card3 img {
+  margin: 80px 35px 0px 50px;
+  width: 350px;
+  height: 320px;
+}
+ .card3p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  justify-content: center;
+  border-radius: 20px;
+}
+.card3 .card3p p {
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 1px;
+} 
+.card4 {
+  margin: 80px 0px 40px 300px;
+}
+.card4-bg {
+  width: 300px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card4-info {
+  color: white;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.card4 .card4-text {
+  font-size: larger;
+  color: #e20d0d;
+  margin-left: 50px;
+}
+.card4 .card4-text p {
+  margin-left: 70px;
+}
+
+.card4:hover{
+  height: max-content;
+  transition: 800ms ease-in-out;
+  box-shadow: rgba(165,13,13) 0px 54px 55px, rgba(165,13,13) 0px -12px 30px, rgba(165,13,13) 0px 4px 6px, rgba(165,13,13) 0px 12px 13px, rgba(165,13,13) 0px -3px 5px;
+}
+
+.card5 {
+  width: 300px;
+  height: 150px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card5-info {
+  color: white;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.Rcard {
+  background-color: white;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.rcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rcard p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 50px;
+  margin: 20px 0px 10px 30%;
+}
+
+.rcard img {
+  height: 28px;
+  width: 28px;
+  margin: 25px 20px 10px 0px;
+}
+.Rcard form input {
+  background-color: #dddddd;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  padding: 7px;
+  border: none;
+  margin: 5px 0px 20px 40px;
+}
+.Rcard form button {
+  margin-left: 160px;
+}
+.Rcard form label {
+  margin-left: 40px;
+}
+
+.google {
+  height: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 30px, 0px, 0px, 10px;
+}
+.text {
+  font-size: medium;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.text span {
+  color: #1188cb;
+}
+.Register {
+  color: white;
+  margin: 0px 8px 8px 8px;
+  background-color: #1188cb;
+  border-radius: 5px;
+  height: 30px;
+  padding: 7px;
+  border: none;
+}
+
+.Register:hover {
+  cursor: pointer;
+  font-size: larger;
+  width: 90px;
+  height: 40px;
+}
+.text span:hover {
+  cursor: pointer;
+}
+.Lcard {
+  background-color: white;
+  width: 400px;
+  border-radius: 20px;
+}
+.lcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lcard p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 50px;
+  margin: 20px 0px 10px 30%;
+}
+.lcard img {
+  height: 28px;
+  width: 28px;
+  margin: 25px 20px 10px 0px;
+}
+.Lcard form input {
+  background-color: #dddddd;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  padding: 7px;
+  border: none;
+  margin: 5px 0px 20px 40px;
+}
+.Lcard form label {
+  margin-left: 40px;
+}
+.google2 {
+  height: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 30px, 0px, 0px, 10px;
+}
+.text2 {
+  font-size: medium;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.text2 span {
+  color: #1188cb;
+}
+.login12 {
+  color: white;
+  margin: 0px 8px 8px 270px;
+  background-color: #1188cb;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  padding: 7px;
+  border: none;
+}
+.login12:hover {
+  cursor: pointer;
+  font-size: larger;
+  width: 90px;
+  height: 40px;
+}
+.text2 span:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* Add a blur effect to the background */
+}
